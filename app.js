@@ -17,8 +17,11 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-john:Lakersjj27!@cluster0.jt8kr3a.mongodb.net/blogDB", {useNewUrlParser: true});
-
+const login = "mongodb+srv://admin-john:";
+const end = "@cluster0.jt8kr3a.mongodb.net/";
+const database = "blogDB";
+const pw = process.env.MONGODB;
+mongoose.connect(login + pw + end + database, {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 const postSchema = new mongoose.Schema({
