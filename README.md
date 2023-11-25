@@ -17,4 +17,4 @@ Run this project using npm.
     "db.posts.find()" , where you will find all your documents.
 7)  To see the deployment code of the Blog Project, which is running live on the Heroku server , and using MongoDB Atlas to host its database, you will need to go to the code editor terminal and enter "git checkout deploy."
 
-***NOTE - The link to this live project can be found here - https://my-blog-database-app-cc5b398f8a7c.herokuapp.com/
+***NOTE - The link to this live project can be found here - https://my-blog-database-app-f4ad477feaf7.herokuapp.com/
