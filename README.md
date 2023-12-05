@@ -9,7 +9,7 @@ Run this project using npm.
 
 1)  In your HyperTerminal you will enter in "mongod" to have your local database running. In the second tab, you may enter in "mongo" to open up your mongo shell.
 2)  In the master branch, you may go into your code editor terminal and install your dependencies by entering in "npm install".
-3)  Once installed you may now enter in "nodemon app.js" to have the terminal running. You may now open up your web brower and enter in - http://localhost:3000/.
+3)  Once installed you may now enter in "nodemon app.js" to have the terminal running. You may now open up your web browser and enter in - http://localhost:3000/.
 4)  In this web application you will have a home page, about us page, contact us page, compose page, and a posts page directed from your home page blogs.
 5)  In the compose page - http://localhost:3000/compose - you can make a post request consisting of a blog Title & Post. Once you have published this post , you will be redirected to your home page where you will see all your blog     
     posts. Note that these blog posts are limited in character, you will need to click on "Read me" to see the full content of the posts and will be directed to its individual page - ie. http://localhost:3000/posts/:postID.
